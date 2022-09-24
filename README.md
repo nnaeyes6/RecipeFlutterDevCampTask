@@ -8,7 +8,7 @@ A new Flutter project.
 
 ## This assignment is for...
 
-#####Google Developers Group, London #FlutterDevCamp boothcamp week 1, session 2.
+##### Google Developers Group, London #FlutterDevCamp boothcamp week 1, session 2.
 
  I might root into upgrading the app with API requests and other functionalities by permission of GDG London.
 ## Lessons: 
