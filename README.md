@@ -4,16 +4,16 @@ A new Flutter project.
 
 ## Getting Started
 
-## This app is a cooking recipe app. The users should be able to select the meal they would like for breakefast, lunch or dinner, the the ingredients will be provided.
+##### This app is a cooking recipe app. The users should be able to select the meal they would like for breakefast, lunch or dinner, the the ingredients will be provided.
 
-# This assignment is for...
+## This assignment is for...
 
-#Google Developers Group, London FlutterDevCamp boothcamp week 1, session 2.
+#####Google Developers Group, London #FlutterDevCamp boothcamp week 1, session 2.
 
-# I might root into upgrading the app with API requests and other functionalities by permission of GDG London.
+ I might root into upgrading the app with API requests and other functionalities by permission of GDG London.
 ## Lessons: 
-# Learnt creation of model nestwd classes
-# Learnt passing information from screen 1 objects to screen 2. 
+##### Learnt creation of model nestwd classes
+##### Learnt passing information from screen 1 objects to screen 2. 
 
 This project is a starting point for a Flutter application.
 A few resources to get you started if this is your first Flutter project:
