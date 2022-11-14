@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:recipe_app_devcamp/navbar/bottom_navbar.dart';
-import 'package:recipe_app_devcamp/navbar/favorite.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +15,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Recipe App',
       theme: ThemeData(primarySwatch: Colors.green, fontFamily: 'Rubik'),
-      home: const BottonNavigationBarPage(),
+      home: const BottomNavBar(),
     );
   }
 }

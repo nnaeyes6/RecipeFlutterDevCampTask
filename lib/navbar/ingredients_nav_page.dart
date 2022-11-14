@@ -1,7 +1,6 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'package:flutter/material.dart';
 import 'package:recipe_app_devcamp/model/data_model.dart';
-import 'package:recipe_app_devcamp/navbar/bottom_navbar.dart';
 
 class IngredientsNavPage extends StatefulWidget {
   final DatatModel? recipe;
@@ -12,10 +11,10 @@ class IngredientsNavPage extends StatefulWidget {
   }) : super(key: key);
 
   @override
-  State<IngredientsNavPage> createState() => _CartPageState();
+  State<IngredientsNavPage> createState() => _IngredientsNavPageState();
 }
 
-class _CartPageState extends State<IngredientsNavPage> {
+class _IngredientsNavPageState extends State<IngredientsNavPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -31,7 +30,7 @@ class _CartPageState extends State<IngredientsNavPage> {
               IconButton(
                   onPressed: () {
                     Navigator.of(context).push(MaterialPageRoute(
-                        builder: (context) => const BottonNavigationBarPage()));
+                        builder: (context) => const BottomAppBar()));
                   },
                   icon: const Icon(Icons.arrow_back_ios_new)),
               Row(
